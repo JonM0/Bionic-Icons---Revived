@@ -23,7 +23,7 @@
     <defName>prosthetic</defName>
     <texture>Things/Item/Health/HealthItem</texture>
     <category>BodyPartsProsthetic</category>
-    <replacement>BionicIcons/Boxes/Prosthetic</replacement>
+    <replacement>BionicIcons/Boxes/ProstheticAdvanced</replacement>
   </BionicIconsTextureDef>
   
   <!-- this is a list of actual textures to replace vanilla items -->

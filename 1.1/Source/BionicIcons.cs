@@ -39,11 +39,7 @@ namespace BionicIcons
             icons = icons.OrderBy(x => x.nameContains == null ? 1 : 0).ThenBy(x => x.defName); // sorts them by whether they have a nameContains or not, then by defName 
             foreach (BionicIconsIconDef def in icons)
             {
-
-                // debug log
-                //Log.Message( String.Format( "BionicIconsIconDef: {0} - {1}", def.defName, def.thingDef ) );//---debug message
-
-
+                               
                 foreach (string bodyPartName in def.BodyParts())
                 {
                     BodyPartDef bodyPart = DefDatabase<BodyPartDef>.GetNamedSilentFail(bodyPartName); // skip if the body part doesnt exist
@@ -99,9 +95,12 @@ namespace BionicIcons
 
             List<BionicIconsTextureDef> colors;
             if (!replacements.TryGetValue(def.graphicData.texPath, out colors)) return false; // checks if the part has a texture that can be replaced
-
+            //colors.SortBy( x => x.category == null ? 1 : 0 );
+            //colors.SortBy( x => x.nameContains == null ? 1 : 0 );
+            
             List<BionicIconsIconDef> icons;
             if (!replacementsIcon.TryGetValue(bodyPart, out icons)) return false; // checks if the bodypart has an icon
+            //icons.SortBy( x => x.nameContains == null ? 1 : 0 );
 
             string tex = null;
             foreach (BionicIconsIconDef option in icons) // takes the first compatible icon texture
