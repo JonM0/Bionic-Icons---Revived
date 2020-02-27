@@ -1,0 +1,6 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\BionicIcons\Assemblies\BionicIcons.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\BionicIcons\Source\obj\Debug\BionicIcons.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\BionicIcons\Source\obj\Debug\BionicIcons.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\BionicIcons\1.1\Assemblies\BionicIcons.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\BionicIcons\1.1\Source\obj\Debug\BionicIcons.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\BionicIcons\1.1\Source\obj\Debug\BionicIcons.dll
